@@ -1,5 +1,5 @@
 import Ember from 'ember';
-const { Helper: { helper} } = Ember;
+const { Helper: { helper } } = Ember;
 
 let defaultWidth = <%= defaultWidth %>;
 let defaultHeight = <%= defaultHeight %>;
