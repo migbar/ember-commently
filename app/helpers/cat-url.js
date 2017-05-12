@@ -1,4 +1,5 @@
 import Ember from 'ember';
+const { Helper: { helper} } = Ember;
 
 let defaultWidth = 310;
 let defaultHeight = 300;
@@ -11,4 +12,4 @@ export function catUrl(params, hash) {
   return `http://placekitten.com/${height}/${width}`;
 }
 
-export default Ember.Helper.helper(catUrl);
+export default helper(catUrl);

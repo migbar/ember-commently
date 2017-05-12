@@ -1,4 +1,5 @@
 import Ember from 'ember';
+const { Helper: { helper} } = Ember;
 
 let defaultWidth = <%= defaultWidth %>;
 let defaultHeight = <%= defaultHeight %>;
@@ -11,4 +12,4 @@ export function <%= camelizedModuleName %>(params, hash) {
   return `<%= baseURL %>/${height}/${width}`;
 }
 
-export default Ember.Helper.helper(<%= camelizedModuleName %>);
+export default helper(<%= camelizedModuleName %>);
