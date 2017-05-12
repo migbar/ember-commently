@@ -1,0 +1,9 @@
+{
+  "name": "commently-ui-kit",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "ember-cli-htmlbars": "*"
+  }
+}
