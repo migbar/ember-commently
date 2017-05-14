@@ -67,7 +67,9 @@
   "private": true,
   "ember-addon": {
     "paths": [
-      "lib/commently-ui-kit"
+      "lib/commenter",
+      "lib/commently-ui-kit",
+      "lib/slacker"
     ]
   }
 }
